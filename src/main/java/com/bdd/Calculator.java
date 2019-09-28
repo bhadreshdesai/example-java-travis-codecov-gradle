@@ -10,4 +10,14 @@ public class Calculator {
     public int add(int a, int b) {
         return a + b;
     }
+
+    /**
+     * Subtract second number from the first
+     * @param a Subtract other number from this number
+     * @param b Subtract this number from the other number
+     * @return Result of subtraction
+     */
+    public int subtract(int a, int b) {
+        return a - b;
+    }
 }
